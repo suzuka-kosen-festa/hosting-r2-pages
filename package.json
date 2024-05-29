@@ -1,0 +1,18 @@
+{
+  "name": "hosting-r2-pages",
+  "version": "1.0.0",
+  "description": "",
+  "author": "shiron-dev <shiron4710.dev@gmail.com>",
+  "license": "ISC",
+  "keywords": [],
+  "scripts": {
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^2.19.1",
+    "@cloudflare/workers-types": "^4.20240524.0",
+    "eslint": "^9.3.0",
+    "typescript": "^5.4.5"
+  }
+}
