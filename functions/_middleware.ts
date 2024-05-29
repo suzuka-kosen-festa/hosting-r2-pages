@@ -11,6 +11,10 @@ export const onRequest: PagesFunction<Env> = async (context) => {
     pathname += "index.html";
   }
 
+  if (pathname.startsWith("/")) {
+    pathname = pathname.slice(1);
+  }
+
   const obj = await context.env.BUCKET.get(pathname);
   if (obj === null) {
     return new Response("Not found", { status: 404 });
