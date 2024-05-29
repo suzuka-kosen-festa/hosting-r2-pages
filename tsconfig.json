@@ -1,8 +1,8 @@
 {
   "compilerOptions": {
-    "outDir": "dist"
-  },
-  "include": [
-    "src/**/*ts"
-  ]
+    "target": "esnext",
+    "lib": ["esnext"],
+    "module": "esnext",
+    "types": ["@cloudflare/workers-types"]
+  }
 }
