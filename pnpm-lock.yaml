@@ -6,7 +6,7 @@ settings:
 
 devDependencies:
   '@antfu/eslint-config':
-    specifier: ^2.19.2
+    specifier: ^2.20.0
     version: 2.20.0(@vue/compiler-sfc@3.4.27)(eslint@9.4.0)(typescript@5.4.5)
   '@cloudflare/workers-types':
     specifier: ^4.20240529.0
@@ -184,18 +184,6 @@ packages:
 
   /@cloudflare/workers-types@4.20240529.0:
     resolution: {integrity: sha512-W5obfjAwCNdYk3feUHtDfUxtTU6WIq83k6gmrLLJv+HkgCkOTwwrDNs+3w1Qln0tMj+FQx/fbwxw3ZuHIoyzGg==}
-    dev: true
-
-  /@es-joy/jsdoccomment@0.43.0:
-    resolution: {integrity: sha512-Q1CnsQrytI3TlCB1IVWXWeqUIPGVEKGaE7IbVdt13Nq/3i0JESAkQQERrfiQkmlpijl+++qyqPgaS31Bvc1jRQ==}
-    engines: {node: '>=16'}
-    dependencies:
-      '@types/eslint': 8.56.10
-      '@types/estree': 1.0.5
-      '@typescript-eslint/types': 7.11.0
-      comment-parser: 1.4.1
-      esquery: 1.5.0
-      jsdoc-type-pratt-parser: 4.0.0
     dev: true
 
   /@es-joy/jsdoccomment@0.43.1:
@@ -934,7 +922,7 @@ packages:
     peerDependencies:
       eslint: '*'
     dependencies:
-      '@es-joy/jsdoccomment': 0.43.0
+      '@es-joy/jsdoccomment': 0.43.1
       eslint: 9.4.0
     dev: true
 
