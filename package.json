@@ -10,7 +10,7 @@
     "lint:fix": "eslint . --fix"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^2.20.0",
+    "@antfu/eslint-config": "^2.21.0",
     "@cloudflare/workers-types": "^4.20240605.0",
     "eslint": "^9.4.0",
     "typescript": "^5.4.5"
