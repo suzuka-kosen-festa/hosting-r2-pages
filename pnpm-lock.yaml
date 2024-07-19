@@ -9,7 +9,7 @@ importers:
   .:
     devDependencies:
       '@antfu/eslint-config':
-        specifier: ^2.22.3
+        specifier: ^2.22.4
         version: 2.22.4(@vue/compiler-sfc@3.4.27)(eslint@9.7.0)(typescript@5.5.3)
       '@cloudflare/workers-types':
         specifier: ^4.20240712.0
