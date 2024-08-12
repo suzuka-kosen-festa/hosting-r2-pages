@@ -21,7 +21,7 @@ importers:
         specifier: ^5.5.4
         version: 5.5.4
       wrangler:
-        specifier: ^3.69.1
+        specifier: ^3.70.0
         version: 3.70.0(@cloudflare/workers-types@4.20240806.0)
 
 packages:
