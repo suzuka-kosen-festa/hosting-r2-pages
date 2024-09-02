@@ -21,7 +21,7 @@ importers:
         specifier: ^5.5.4
         version: 5.5.4
       wrangler:
-        specifier: ^3.72.3
+        specifier: ^3.73.0
         version: 3.73.0(@cloudflare/workers-types@4.20240821.1)
 
 packages:
@@ -1597,9 +1597,6 @@ packages:
     engines: {node: '>=14.17'}
     hasBin: true
 
-  ufo@1.5.3:
-    resolution: {integrity: sha512-Y7HYmWaFwPUmkoQCUIAYpKqkOf+SbVj/2fJJZ4RJMCfZp0rTGwRbzQD+HghfnhKOjL9E01okqz+ncJskGYfBNw==}
-
   ufo@1.5.4:
     resolution: {integrity: sha512-UsUk3byDzKd04EyoZ7U4DOlxQaD14JUKQl6/P7wiX4FNvUfm3XL246n9W5AmqwW5RSFJ27NAuM0iLscAOYUiGQ==}
 
@@ -2968,7 +2965,7 @@ snapshots:
       acorn: 8.12.1
       pathe: 1.1.2
       pkg-types: 1.1.1
-      ufo: 1.5.3
+      ufo: 1.5.4
 
   ms@2.1.2: {}
 
@@ -3293,8 +3290,6 @@ snapshots:
   type-fest@0.8.1: {}
 
   typescript@5.5.4: {}
-
-  ufo@1.5.3: {}
 
   ufo@1.5.4: {}
 
