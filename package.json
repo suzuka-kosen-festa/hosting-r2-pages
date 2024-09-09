@@ -14,7 +14,7 @@
     "@cloudflare/workers-types": "^4.20240903.0",
     "eslint": "^9.9.1",
     "typescript": "^5.5.4",
-    "wrangler": "^3.74.0"
+    "wrangler": "^3.75.0"
   },
   "packageManager": "pnpm@9.9.0"
 }
