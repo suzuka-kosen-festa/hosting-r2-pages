@@ -21,8 +21,8 @@ importers:
         specifier: ^5.6.3
         version: 5.6.3
       wrangler:
-        specifier: ^3.83.0
-        version: 3.83.0(@cloudflare/workers-types@4.20241022.0)
+        specifier: ^3.84.0
+        version: 3.84.1(@cloudflare/workers-types@4.20241022.0)
 
 packages:
 
@@ -1622,8 +1622,8 @@ packages:
     resolution: {integrity: sha512-72RFADWFqKmUb2hmmvNODKL3p9hcB6Gt2DOQMis1SEBaV6a4MH8soBvzg+95CYhCKPFedut2JY9bMfrDl9D23g==}
     engines: {node: '>=14.0'}
 
-  unenv-nightly@2.0.0-20241018-011344-e666fcf:
-    resolution: {integrity: sha512-D00bYn8rzkCBOlLx+k1iHQlc69jvtJRT7Eek4yIGQ6461a2tUBjngGZdRpqsoXAJCz/qBW0NgPting7Zvg+ysg==}
+  unenv-nightly@2.0.0-20241024-111401-d4156ac:
+    resolution: {integrity: sha512-xJO1hfY+Te+/XnfCYrCbFbRcgu6XEODND1s5wnVbaBCkuQX7JXF7fHEXPrukFE2j8EOH848P8QN19VO47XN8hw==}
 
   unist-util-stringify-position@2.0.3:
     resolution: {integrity: sha512-3faScn5I+hy9VleOq/qNbAd6pAx7iH5jYBMS9I1HgQVijz/4mv5Bvw5iw1sC/90CODiKo81G/ps8AJrISn687g==}
@@ -1663,8 +1663,8 @@ packages:
     engines: {node: '>=16'}
     hasBin: true
 
-  wrangler@3.83.0:
-    resolution: {integrity: sha512-qDzdUuTngKqmm2OJUZm7Gk4+Hv37F2nNNAHuhIgItEIhxBdOVDsgKmvpd+f41MFxyuGg3fbGWYANHI+0V2Z5yw==}
+  wrangler@3.84.1:
+    resolution: {integrity: sha512-w27/QpIk2qz6aMIVi9T8cDcXMvh/RXjcL+vf4o5J2GpQAE4U7wTCNHyaY9H3oTJWRN97KqCAEbiHBNtTKoUJEw==}
     engines: {node: '>=16.17.0'}
     hasBin: true
     peerDependencies:
@@ -3331,7 +3331,7 @@ snapshots:
     dependencies:
       '@fastify/busboy': 2.1.1
 
-  unenv-nightly@2.0.0-20241018-011344-e666fcf:
+  unenv-nightly@2.0.0-20241024-111401-d4156ac:
     dependencies:
       defu: 6.1.4
       ohash: 1.1.4
@@ -3386,7 +3386,7 @@ snapshots:
       '@cloudflare/workerd-linux-arm64': 1.20241022.0
       '@cloudflare/workerd-windows-64': 1.20241022.0
 
-  wrangler@3.83.0(@cloudflare/workers-types@4.20241022.0):
+  wrangler@3.84.1(@cloudflare/workers-types@4.20241022.0):
     dependencies:
       '@cloudflare/kv-asset-handler': 0.3.4
       '@cloudflare/workers-shared': 0.7.0
@@ -3404,7 +3404,7 @@ snapshots:
       resolve.exports: 2.0.2
       selfsigned: 2.4.1
       source-map: 0.6.1
-      unenv: unenv-nightly@2.0.0-20241018-011344-e666fcf
+      unenv: unenv-nightly@2.0.0-20241024-111401-d4156ac
       workerd: 1.20241022.0
       xxhash-wasm: 1.0.2
     optionalDependencies:
